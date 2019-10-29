@@ -26,6 +26,8 @@ body, html {height: 100%;}
 
 }
 
+.rg-logo:hover {cursor: default;color:#bfe1ff;transition: 0.5s;}
+
 .header {
 
   background: #47689e;
@@ -59,7 +61,7 @@ body, html {height: 100%;}
   font-size: 40px;
   overflow: hidden;
   display: block;
-  margin-left: 470px;
+  margin-left: 482px;
   position: fixed;
   padding-top: 11.5px;
 
@@ -76,7 +78,8 @@ body, html {height: 100%;}
 
 .nav-list a:hover {
 
-  color: aqua;
+  color: #bababa;
+  transition: 0.175s;
 
 }
 
