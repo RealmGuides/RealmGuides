@@ -1,29 +1,52 @@
+@font-face {
+
+  font-family: amyn; src: url("../../assets/fonts/amyn.ttf");
+
+}
+
 * {
 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 
-.tmp {
+body, html {height: 100%;}
+
+.bg-img {
+
+  background: url('../../assets/paladins/loading-screens/Loading_FrostbiteCaverns.png');
+  filter: blur(9px);
+  -webkit-filter: blur(9px);
+  height: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-attachment: fixed;
+  z-index: -1px;
+
+}
+
+.header {
 
   text-align: center;
-  padding-top: 13%;
-  font-variant: small-caps;
+  background: #47689e;
+  padding: 16px;
+  color: white;
+  z-index: 1px;
 
 }
 
-.tmp-2 {
+.header-text {
 
-  text-align: center;
-  font-size: 1.3em;
-  font-family: serif;
-  padding-top: 1%;
-
+  text-align: left;
+  font-family: amyn;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  padding-left: 23px;
 }
 
-.tmp-3 {
-
-  align-self: center;
-
-}
+.header-text:nth-child(1) {font-size: 2.35em;}
+.header-text:nth-child(2) {font-size: 1.23em;}
