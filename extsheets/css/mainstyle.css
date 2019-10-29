@@ -16,26 +16,23 @@ body, html {height: 100%;}
 
 .bg-img {
 
-  background: url('../../assets/paladins/loading-screens/Loading_FrostbiteCaverns.png');
-  filter: blur(9px);
-  -webkit-filter: blur(9px);
+  background: url('../../assets/images/Loading_BlurredFrostbiteCaverns.png');
   height: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   background-attachment: fixed;
-  z-index: -1px;
 
 }
 
 .header {
 
-  text-align: center;
   background: #47689e;
   padding: 16px;
   color: white;
-  z-index: 1px;
+  opacity: 0.9;
+  display: flex;
 
 }
 
@@ -46,7 +43,41 @@ body, html {height: 100%;}
   border-right: 3px solid white;
   border-left: 3px solid white;
   padding-left: 23px;
+  padding-right: 1680px;
+
 }
 
 .header-text:nth-child(1) {font-size: 2.35em;}
 .header-text:nth-child(2) {font-size: 1.23em;}
+
+
+.nav-list {
+
+  color: white;
+  list-style-type: none;
+  font-family: amyn;
+  font-size: 40px;
+  overflow: hidden;
+  display: block;
+  margin-left: 470px;
+  position: fixed;
+  padding-top: 11.5px;
+
+}
+
+.nav-list a {
+
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 0;
+
+}
+
+.nav-list a:hover {
+
+  color: aqua;
+
+}
+
+.nav-list li {float: left;padding: 37px;padding-top: 0;}
