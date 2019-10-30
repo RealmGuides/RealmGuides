@@ -26,7 +26,14 @@ body, html {height: 100%;}
 
 }
 
-.rg-logo:hover {cursor: default;color:#bfe1ff;transition: 0.5s;}
+.rg-logo:hover {cursor: pointer;color:#bfe1ff;transition: 0.5s;}
+
+.logo-link {
+
+  color: white;
+  text-decoration: none;
+
+}
 
 .header {
 
@@ -45,7 +52,7 @@ body, html {height: 100%;}
   border-right: 3px solid white;
   border-left: 3px solid white;
   padding-left: 23px;
-  padding-right: 1680px;
+  padding-right: 23px;
 
 }
 
@@ -61,7 +68,7 @@ body, html {height: 100%;}
   font-size: 40px;
   overflow: hidden;
   display: block;
-  margin-left: 482px;
+  margin-left: 30%;
   position: fixed;
   padding-top: 11.5px;
 
@@ -84,3 +91,14 @@ body, html {height: 100%;}
 }
 
 .nav-list li {float: left;padding: 37px;padding-top: 0;}
+
+
+
+.news-img1 {
+
+  height: 10%;
+  width: 15%;
+  margin-top: 250px;
+  margin-left: 230px;
+
+}
