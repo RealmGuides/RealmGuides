@@ -132,6 +132,8 @@ body, html {height: 100%;
 .blocks {
 
     display: inline-flex;
+    justify-content:space-between;
+    width: 100%;
 
   }
 
@@ -139,41 +141,44 @@ body, html {height: 100%;
 
   text-decoration: none;
   color: black;
+  text-align: center;
 
 }
 
 .block-01 {
 
   width: 450px;
-  height: 400px;
-  border: 15px solid white;
+  height: 350px;
+  border: 15px solid #47689e;
   padding: 24px;
-  margin-top: 0px;
-  margin-left: 0px;
-  background-color: white;
+  margin-top: 190px;
+  margin-left: 80px;
+  background-color: #47689e;
+  opacity: .95;
 
 }
 
 .block-02 {
 
   width: 450px;
-  height: 400px;
-  border: 15px solid white;
+  height: 350px;
+  border: 15px solid #47689e;
   padding: 24px;
-  margin-top: 240px;
-  margin-left: 20px;
-  background-color: white;
+  margin-top: 190px;
+  background-color: #47689e;
+  opacity: .95;
 
 }
 
 .block-03 {
 
   width: 450px;
-  height: 400px;
-  border: 15px solid white;
+  height: 350px;
+  border: 15px solid #47689e;
   padding: 24px;
-  margin-top: 140px;
-  margin-left: 20px;
-  background-color: white;
+  margin-top: 190px;
+  margin-right: 80px;
+  background-color: #47689e;
+  opacity: .95;
 
 }
