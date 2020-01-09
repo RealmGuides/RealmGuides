@@ -20,13 +20,7 @@ audio, video, details, summary
 
 }
 
-/* * {
 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-} */
 
 body, html {height: 100%;
 
@@ -39,16 +33,7 @@ body, html {height: 100%;
 
 }
 
-/* .bg-img {
 
-  background: url('../../assets/images/Loading_BlurredFrostbiteCaverns.png');
-  height: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: static;
-  background-attachment: fixed;
-
-} */
 
 .rg-logo:hover {cursor: pointer;color:#bfe1ff;transition: 0.5s;}
 
@@ -118,22 +103,13 @@ body, html {height: 100%;
 
 
 
-/* .news-img1 {
-
-  height: 10%;
-  width: 15%;
-  margin-top: 250px;
-  margin-left: 230px;
-
-  } */
-
-
 
 .blocks {
 
     display: inline-flex;
     justify-content:space-between;
     width: 100%;
+    text-align: center;
 
   }
 
@@ -149,12 +125,54 @@ body, html {height: 100%;
 
   width: 450px;
   height: 450px;
-  /* border: 15px solid #1c1c1c; */
-  padding: 10px;
+  padding: 5px;
   margin-top: 190px;
-  margin-left: 110px;
   background-color: #1c1c1c;
   opacity: .95;
+
+  position: absolute;
+  left: 20px;
+
+}
+
+.block-02 {
+
+  width: 450px;
+  height: 450px;
+  padding: 5px;
+  margin-top: 190px;
+  background-color: #1c1c1c;
+  opacity: .95;
+
+  position: absolute;
+  right: 500px;
+
+}
+
+.block-03 {
+
+  width: 450px;
+  height: 450px;
+  padding: 5px;
+  margin-top: 190px;
+  background-color: #1c1c1c;
+  opacity: .95;
+
+  position: absolute;
+  right: 20px;
+
+}
+
+.blockfooter {
+
+  width: 100%;
+  background-color: #1c1c1c;
+  opacity: .97;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 94px;
 
 }
 
@@ -165,28 +183,13 @@ body, html {height: 100%;
 
 }
 
+.blockText {
 
-.block-02 {
-
-  width: 450px;
-  height: 450px;
-  /* border: 15px solid #1c1c1c; */
-  padding: 10px;
-  margin-top: 190px;
-  background-color: #1c1c1c;
-  opacity: .95;
-
-}
-
-.block-03 {
-
-  width: 450px;
-  height: 450px;
-  /* border: 15px solid #1c1c1c; */
-  padding: 10px;
-  margin-top: 190px;
-  margin-right: 110px;
-  background-color: #1c1c1c;
-  opacity: .95;
+  color:#dbdbdb;
+  font-size: 20px;
+  margin-top: 22px;
+  font-family: verdana;
+  font-weight: bold;
+  line-height: 1.2
 
 }
