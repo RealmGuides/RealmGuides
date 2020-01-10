@@ -145,11 +145,25 @@ body, html {height: 100%;
   opacity: .95;
 
   position: absolute;
-  right: 500px;
+  left: 493px;
 
 }
 
 .block-03 {
+
+  width: 450px;
+  height: 450px;
+  padding: 5px;
+  margin-top: 190px;
+  background-color: #1c1c1c;
+  opacity: .95;
+
+  position: absolute;
+  right: 493px;
+
+}
+
+.block-04 {
 
   width: 450px;
   height: 450px;
